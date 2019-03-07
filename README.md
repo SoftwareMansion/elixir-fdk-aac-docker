@@ -11,14 +11,14 @@ make build
 
 Optionally, one can add the following variables:
 * `VERSION=string`, which adds the version tag (for example, `1.1.1`)
-* `IMAGE=name`, which will override the default image name. If not specified, this is set to `swmansion/elixir-fdk-aac`
+* `IMAGE=name`, which will override the default image name. If not specified, this is set to `membrane/elixir-fdk-aac`
 
 ## Sample usage
 
 Execute the following command while being in you app's directory:
 
 ```sh
-docker run -it --rm -v `pwd`:/app swmansion/elixir-fdk-aac /bin/bash
+docker run -it --rm -v `pwd`:/app membrane/elixir-fdk-aac /bin/bash
 ```
 
 Inside the container, change the directory to the application's directory:
