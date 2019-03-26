@@ -10,7 +10,7 @@ make build
 ```
 
 Optionally, one can add the following variables:
-* `VERSION=string`, which adds the version tag (for example, `1.1.1`)
+* `VERSION=string`, which adds the version tag (for example, `1.1.1`). Set to `latest` by default.
 * `IMAGE=name`, which will override the default image name. If not specified, this is set to `membrane/elixir-fdk-aac`
 
 ## Sample usage

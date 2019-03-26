@@ -1,4 +1,4 @@
-VERSION ?= 1.0.0
+VERSION ?= latest
 IMAGE ?= membrane/elixir-fdk-aac
 
 build:
